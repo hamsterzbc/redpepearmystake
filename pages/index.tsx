@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           
           <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
           <p className={styles.selectBoxDescription}>
-            Earn $RPEPE 33
+            Earn $RPEPE 
           </p>
         </div>
       </div>
