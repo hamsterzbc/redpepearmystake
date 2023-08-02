@@ -91,8 +91,13 @@ const Stake: NextPage = () => {
             <div className={styles.tokenItem}>
               <h3 className={styles.tokenLabel}>Current Balance</h3>
               <p className={styles.tokenValue}>
-                <b>{tokenBalance?.displayValue}</b> {tokenBalance?.symbol}
-              </p>
+    <b>
+      {tokenBalance
+        ? parseFloat(tokenBalance.displayValue).toFixed(2)
+        : "Loading..."}
+    </b>{" "}
+    {tokenBalance?.symbol}
+</p>
             </div>
           </div>
 
