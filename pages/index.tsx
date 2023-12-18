@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <div
           className={styles.optionSelectBox}
           role="button"
-          onClick={() => router.push(`/`)}
+          onClick={() => router.push(`/mint`)}
         >
           {/* Mint a new NFT */}
           
@@ -28,13 +28,13 @@ const Home: NextPage = () => {
         <div
           className={styles.optionSelectBox}
           role="button"
-          onClick={() => router.push(`/stake`)}
+          onClick={() => router.push(`/`)}
         >
           {/* Staking an NFT */}
           
           <h2 className={styles.selectBoxTitle}>Stake Your NFTs</h2>
           <p className={styles.selectBoxDescription}>
-            Earn $RPEPE 
+            Earn $RPEPE ( back soon )
           </p>
         </div>
       </div>
